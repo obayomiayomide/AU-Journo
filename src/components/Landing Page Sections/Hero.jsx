@@ -1,6 +1,6 @@
 import React from "react";
 import heroBg from "../../assets/L-Page-Bg.png";
-import RegisterLink from "../Pages Link/RegisterLink";
+import PageLinks from "../Pages Link/PageLinks";
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
           We give you access to own and publish your works with easy.
         </p>
         <div className="w">
-          <RegisterLink link="Register" />
+          <PageLinks link="Register" />
         </div>
       </div>
     </section>

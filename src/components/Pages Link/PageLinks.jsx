@@ -1,6 +1,6 @@
 import React from "react";
 
-function RegisterLink({ condition, link }) {
+function PageLinks({ condition, link }) {
   return (
     <div className="">
       <p className="">
@@ -10,4 +10,4 @@ function RegisterLink({ condition, link }) {
   );
 }
 
-export default RegisterLink;
+export default PageLinks;

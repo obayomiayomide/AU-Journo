@@ -3,9 +3,9 @@ import Input from "../Input";
 import Nav from "../Nav";
 import Back from "../Back";
 import Title from "../Title";
-import RegisterLink from "../Pages Link/RegisterLink";
 import Hr from "../Hr";
 import ActionBtn from "../ActionBtn";
+import PageLinks from "../Pages Link/PageLinks";
 
 function Login() {
   return (
@@ -17,11 +17,14 @@ function Login() {
         <p className="">Or</p>
         <Hr />
       </div>
-      <Input type="text" placeholder="Email address" />
-      <Input type="password" placeholder="Password" eyeImg={true} />
-      <ActionBtn buttonText="Log in" />
+      <form>
+        <Input type="text" placeholder="Email address" />
+        <Input type="password" placeholder="Password" eyeImg={true} />
+        <button type="submit">Login</button>
+      </form>
+
       <Hr />
-      <RegisterLink condition="Don't have an account?" link="Register" />
+      <PageLinks condition="Don't have an account?" link="Register" />
     </div>
   );
 }
