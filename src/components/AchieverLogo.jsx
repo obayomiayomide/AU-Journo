@@ -3,8 +3,8 @@ import achieverLogo from "../assets/Achievers-Logo.png";
 
 function AchieverLogo() {
   return (
-    <div className="">
-      <img className="" src={achieverLogo} alt={brandLogo} />
+    <div>
+      <img className="w" src={achieverLogo} alt={achieverLogo} width={220} />
     </div>
   );
 }

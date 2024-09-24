@@ -3,7 +3,9 @@ import React from "react";
 function NavLinks({ link }) {
   return (
     <div className="">
-      <span className="">{link}</span>
+      <div className="">Register</div>
+      <div className="">Login</div>
+      <div className="">big</div>
     </div>
   );
 }

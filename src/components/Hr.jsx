@@ -1,9 +1,9 @@
 import React from "react";
 
-function Hr() {
+function Hr({ or }) {
   return (
-    <div>
-      <hr className="" />
+    <div className="w-[1298px] ">
+      <hr />
     </div>
   );
 }
