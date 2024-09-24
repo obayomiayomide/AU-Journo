@@ -13,7 +13,7 @@ function Back() {
           height={18.95}
         />
       </div>
-      <p className="">Back</p>
+      <p className="font-lato font-normal text-[26px] leading-[31.2px]">Back</p>
     </div>
   );
 }

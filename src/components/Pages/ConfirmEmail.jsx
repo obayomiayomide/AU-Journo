@@ -5,15 +5,15 @@ import PageLinks from "../Pages Link/PagesLink";
 
 function ConfirmEmail() {
   return (
-    <div className="">
-      <h1>Confirm your Email address</h1>
-      <p>A link has been sent to the provided email account.</p>
-      <div>
-        <img
-          src={emailConfirmationImg}
-          alt="confirm your email"
-          width={642.5}
-        />
+    <div className="w-full text-center">
+      <h1 className="font-poppins font-bold text-[64px] leading-[96px]">
+        Confirm your Email address
+      </h1>
+      <p className="font-lato font-normal text-[28px] leading-[33.6px]">
+        A link has been sent to the provided email address.
+      </p>
+      <div className="w-[775px] my-0 mx-auto object-contain">
+        <img src={emailConfirmationImg} alt="confirm your email" width={770} />
       </div>
 
       <PageLinks condition="Wrong email address?" link="Go back to Register?" />

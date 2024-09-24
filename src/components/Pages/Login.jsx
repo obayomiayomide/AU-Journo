@@ -21,11 +21,18 @@ function Login() {
           <div className="w-[930px] relative my-0 mx-auto flex justify-between items-center">
             <div className=" relative flex gap-3 items-center">
               <img src={rememberIcon} alt="Remember me" width={26.5} />
-              <p>Remember me</p>
+              <p className="font-lato font-normal text-[26px] leading-[31.2px]">
+                Remember me
+              </p>
             </div>
             <PagesLink link="Forgot Password?" />
           </div>
-          <button type="submit">Login</button>
+          <button
+            className="font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] "
+            type="submit"
+          >
+            Login
+          </button>
         </form>
 
         <Hr />

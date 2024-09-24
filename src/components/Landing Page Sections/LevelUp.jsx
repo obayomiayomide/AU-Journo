@@ -6,8 +6,8 @@ import LevelUpInfo from "../LevelUpInfo";
 
 function LevelUp() {
   return (
-    <section className="">
-      <div>
+    <section className="w-full">
+      <div className="w-[1400px] flex jutify-center my-0 mx-auto">
         <LevelUpInfo
           levelUpImg={levelUpImg1}
           title="STREAMLINE YOUR DISCOVERY"
@@ -22,7 +22,7 @@ function LevelUp() {
         />
       </div>
       <div className="">
-        <h1 className="">
+        <h1 className="font-poppins font-bold text-[64px] leading-[96px]">
           Level up your research and be a part of our thriving community of
           academics and researchers.
         </h1>

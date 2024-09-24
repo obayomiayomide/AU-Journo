@@ -5,7 +5,7 @@ import facebookIcon from "../assets/Facebook-icon.png";
 
 function Title({ head, para }) {
   return (
-    <div className="w-[1298px] my-0 mx-auto text-center overflow-hidden">
+    <>
       <h1 className="font-poppins font-bold text-[64px] leading-[96px]">
         {head}
       </h1>
@@ -30,7 +30,7 @@ function Title({ head, para }) {
       </div>
 
       <Hr />
-    </div>
+    </>
   );
 }
 

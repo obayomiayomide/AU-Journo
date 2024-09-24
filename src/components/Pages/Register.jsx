@@ -20,7 +20,12 @@ function Register() {
         <form action="">
           <Input type="text" placeholder="Email address" />
           <Input type="password" placeholder="Password" eyeImg={true} />
-          <button type="submit">Register</button>
+          <button
+            className="font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] "
+            type="submit"
+          >
+            Register
+          </button>
           <div>
             <PagesLink
               condition="By Clicking Register you agree to our"
