@@ -33,7 +33,11 @@ function Login() {
         </form>
 
         <Hr />
-        <PagesLink condition="Don't have an account?" link="Register" />
+        <PagesLink
+          condition="Don't have an account?"
+          link="Register"
+          toLink="/register"
+        />
       </div>
     </div>
   );

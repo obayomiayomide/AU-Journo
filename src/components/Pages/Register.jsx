@@ -33,7 +33,11 @@ function Register() {
           </div>
         </form>
         <Hr />
-        <PagesLink condition="Already have an account?" link="Sign in" />
+        <PagesLink
+          condition="Already have an account?"
+          link="Sign in"
+          toLink="/login"
+        />
       </div>
     </div>
   );
