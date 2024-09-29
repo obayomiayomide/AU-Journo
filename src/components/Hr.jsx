@@ -2,7 +2,7 @@ import React from "react";
 
 function Hr({ or }) {
   return (
-    <div className="w-[1298px] my-0 mx-auto ">
+    <div className="max-w-[1298px] my-0 mx-auto border-default ">
       <hr />
     </div>
   );

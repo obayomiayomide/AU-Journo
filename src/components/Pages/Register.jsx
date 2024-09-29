@@ -12,18 +12,17 @@ function Register() {
     <div className="text-center">
       <Nav />
       <Back />
-      <div className="w-[1298px] my-0 mx-auto">
+      <div className="w-[1298px] centralize">
         <Title
           head="Register"
           para="Let's get you started! Register with your social account to begin"
         />
         <form action="">
+          <Input type="text" placeholder="First name" />
+          <Input type="text" placeholder="Last name" />
           <Input type="text" placeholder="Email address" />
           <Input type="password" placeholder="Password" eyeImg={true} />
-          <button
-            className="font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] "
-            type="submit"
-          >
+          <button className="for-btn " type="submit">
             Register
           </button>
           <div>

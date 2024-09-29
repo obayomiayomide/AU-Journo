@@ -1,10 +1,16 @@
 import React from "react";
 
-function LevelUpInfo({ levelUpImg, title, head, para }) {
+function LevelUpInfo({ levelUpImg, title, head, para, width, height }) {
   return (
     <div className="w-[600px] border ">
-      <div className="">
-        <img src={levelUpImg} alt="" />
+      <div>
+        <img
+          className="my-0 mx-auto"
+          src={levelUpImg}
+          alt={levelUpImg}
+          height={height}
+          width={width}
+        />
       </div>
       <div className="">
         <p className="font-poppins font-medium text-[20px] leading-[30px]">

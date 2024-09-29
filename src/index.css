@@ -10,3 +10,15 @@
   padding: 0;
   color: #1a1a1a;
 }
+
+@layer components {
+  .for-header {
+    @apply font-poppins font-semibold text-[64px] leading-[96px];
+  }
+  .for-btn {
+    @apply font-poppins font-medium text-[22px] leading-[33px] bg-primary text-white rounded-[15px] px-[50px] py-[15px];
+  }
+  .centralize {
+    @apply my-0 mx-auto;
+  }
+}

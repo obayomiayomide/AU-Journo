@@ -3,7 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      green: "#2E7B3F",
+      primary: "#2e7b3f",
+      white: "#ffffff",
+      default: "1a1a1a",
+      ash: "#B0B7B1",
     },
     extend: {
       fontFamily: {

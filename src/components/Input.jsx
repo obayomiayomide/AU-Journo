@@ -5,10 +5,10 @@ function Input({ type, value, whenChanged, placeholder, eyeImg }) {
   const between = eye ? "justify-between" : "justify-start";
   return (
     <div
-      className={`w-[930px] h-[100px] my-0 mx-auto my-[20px] px-[35px] border flex gap-2 ${between} rounded-[30px] items-center`}
+      className={`w-[930px] h-[100px] my-0 mx-auto my-[50px] px-[40px] flex gap-2 ${between} rounded-[30px] items-center shadow-[1px_1px_8px_1px_rgba(0,0,0,0.25)]`}
     >
       <input
-        className="outline-none relative w-full font-lato font-normal text-[26px] leading-[31.2px] italics"
+        className="outline-none relative w-full font-lato font-normal text-[26px] leading-[31.2px] italic "
         type={type}
         value={value}
         onChange={whenChanged}

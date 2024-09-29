@@ -6,9 +6,7 @@ import PageLinks from "../Pages Link/PagesLink";
 function ConfirmEmail() {
   return (
     <div className="w-full text-center">
-      <h1 className="font-poppins font-bold text-[64px] leading-[96px]">
-        Confirm your Email address
-      </h1>
+      <h1 className="for-header">Confirm your Email address</h1>
       <p className="font-lato font-normal text-[28px] leading-[33.6px]">
         A link has been sent to the provided email address.
       </p>

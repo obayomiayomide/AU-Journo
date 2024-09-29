@@ -7,27 +7,32 @@ import ExploreInfo from "../ExploreInfo";
 
 function Explore() {
   return (
-    <section>
-      <div>
+    <section className="flex justify-between">
+      <div className="w-[644px] ">
         <img src={exploreImg} alt="Explore our top research topics" />
         <ExploreInfo
           exploreInfoIcon={membersIcon}
           exploreInfoText="1000+ members"
+          width={80}
         />
         <ExploreInfo
           exploreInfoIcon={downloadIcon}
           exploreInfoText="200+ downloaded"
+          width={60}
         />
         <ExploreInfo
           exploreInfoIcon={publishedIcon}
           exploreInfoText="500+ published topics"
+          width={40}
         />
       </div>
-      <div className="">
-        <h1 className="w">
+      <div className="w-[644px] ">
+        <h1 className="font-poppins font-semibold text-[64px] leading-[96px]">
           Explore our top research topics across various fields.
         </h1>
-        <p className="w">Over 1000 researches available for you to explore.</p>
+        <p className="font-poppins font-medium text-[28px] leading-[42px]">
+          Over 1000 researches available for you to explore.
+        </p>
       </div>
     </section>
   );

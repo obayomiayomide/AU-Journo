@@ -6,13 +6,11 @@ import facebookIcon from "../assets/Facebook-icon.png";
 function Title({ head, para }) {
   return (
     <>
-      <h1 className="font-poppins font-bold text-[64px] leading-[96px]">
-        {head}
-      </h1>
+      <h1 className="for-header">{head}</h1>
       <p className="font-lato font-normal text-[28px] leading-[33.6px]">
         {para}
       </p>
-      <div className="w-[148.33px] my-0 mx-auto flex justify-between  ">
+      <div className="w-[180px] centralize flex justify-between  ">
         <img
           className=""
           src={googleIcon}
@@ -28,8 +26,12 @@ function Title({ head, para }) {
           height={64}
         />
       </div>
-
-      <Hr />
+      <div>
+        <Hr />
+        <p className="w-[100px] font-lato font-normal text-[28px] leading-[33.6px] relative centralize mt-[-18px] bg-whites">
+          Or
+        </p>
+      </div>
     </>
   );
 }

@@ -13,12 +13,12 @@ function Login() {
     <div className="text-center">
       <Nav />
       <Back />
-      <div className="w-[1298px] my-0 mx-auto">
+      <div className="w-[1298px] centralize">
         <Title head="Log In" para="Sign in with your social account" />
         <form className="" action="">
           <Input type="text" placeholder="Email address" />
           <Input type="password" placeholder="Password" eyeImg={true} />
-          <div className="w-[930px] relative my-0 mx-auto flex justify-between items-center">
+          <div className="w-[930px] relative centralize flex justify-between items-center">
             <div className=" relative flex gap-3 items-center">
               <img src={rememberIcon} alt="Remember me" width={26.5} />
               <p className="font-lato font-normal text-[26px] leading-[31.2px]">
@@ -27,10 +27,7 @@ function Login() {
             </div>
             <PagesLink link="Forgot Password?" />
           </div>
-          <button
-            className="font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] "
-            type="submit"
-          >
+          <button className="for-btn" type="submit">
             Login
           </button>
         </form>
