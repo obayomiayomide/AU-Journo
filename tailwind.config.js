@@ -13,6 +13,10 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         lato: ["Lato", "sans-serif"],
       },
+      backgroundImage: {
+        "hero-pattern": "url('./src/assets/L-Page-Bg.png')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
     },
   },
   plugins: [],

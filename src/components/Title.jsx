@@ -28,7 +28,7 @@ function Title({ head, para }) {
       </div>
       <div>
         <Hr />
-        <p className="w-[100px] font-lato font-normal text-[28px] leading-[33.6px] relative centralize mt-[-18px] bg-whites">
+        <p className="w-[100px] font-lato font-normal text-[28px] leading-[33.6px] relative centralize mt-[-18px] bg-white">
           Or
         </p>
       </div>

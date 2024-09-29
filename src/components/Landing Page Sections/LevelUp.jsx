@@ -7,7 +7,7 @@ import LevelUpInfo from "../LevelUpInfo";
 function LevelUp() {
   return (
     <section className="w-full flex flex-col text-center">
-      <div className="flex gap-10 my-0 mx-auto text-center items-center">
+      <div className="flex gap-10 centralize text-center items-center">
         <LevelUpInfo
           levelUpImg={levelUpImg1}
           title="STREAMLINE YOUR DISCOVERY"
@@ -25,12 +25,12 @@ function LevelUp() {
           height="315px"
         />
       </div>
-      <div className="w-[1029px] my-0 mx-auto">
-        <h1 className="font-poppins font-semibold text-[64px] leading-[96px]">
+      <div className="w-[1029px] centralize">
+        <h1 className="for-header">
           Level up your research and be a part of our thriving community of
           academics and researchers.
         </h1>
-        <p className="w-[191px] my-0 mx-auto font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] ">
+        <p className="w-[191px] my-0 centralize font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] ">
           Join Us
         </p>
       </div>

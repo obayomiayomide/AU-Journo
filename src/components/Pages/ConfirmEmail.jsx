@@ -10,7 +10,7 @@ function ConfirmEmail() {
       <p className="font-lato font-normal text-[28px] leading-[33.6px]">
         A link has been sent to the provided email address.
       </p>
-      <div className="w-[775px] my-0 mx-auto object-contain">
+      <div className="w-[775px] centralize object-contain">
         <img src={emailConfirmationImg} alt="confirm your email" width={770} />
       </div>
 
