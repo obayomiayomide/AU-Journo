@@ -3,10 +3,11 @@ import ActionBtn from "../ActionBtn";
 import levelUpImg1 from "../../assets/L-P-Img1.png";
 import levelUpImg2 from "../../assets/L-P-Img2.png";
 import LevelUpInfo from "../LevelUpInfo";
+import { Link } from "react-router-dom";
 
 function LevelUp() {
   return (
-    <section className="w-full flex flex-col text-center">
+    <section className="w-full flex flex-col text-center p-[100px]">
       <div className="flex gap-10 centralize text-center items-center">
         <LevelUpInfo
           levelUpImg={levelUpImg1}
@@ -25,14 +26,14 @@ function LevelUp() {
           height="315px"
         />
       </div>
-      <div className="w-[1029px] centralize">
+      <div className="w-[1029px] centralize mt-[100px]">
         <h1 className="for-header">
           Level up your research and be a part of our thriving community of
           academics and researchers.
         </h1>
-        <p className="w-[191px] my-0 centralize font-poppins font-medium text-[22px] leading-[33px] border rounded-[15px] px-[50px] py-[15px] ">
-          Join Us
-        </p>
+        <Link to="/">
+          <div className="w-[191px] for-btn centralize mt-[50px] ">Join Us</div>
+        </Link>
       </div>
     </section>
   );

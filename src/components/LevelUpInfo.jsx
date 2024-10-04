@@ -2,7 +2,7 @@ import React from "react";
 
 function LevelUpInfo({ levelUpImg, title, head, para, width, height }) {
   return (
-    <div className="w-[600px] border ">
+    <div className="w-[600px] bg-white  rounded-b-[20px] shadow-[2px_1px_50px_rgba(0,0,0,0.25)]">
       <div>
         <img
           className="my-0 mx-auto"
@@ -12,7 +12,7 @@ function LevelUpInfo({ levelUpImg, title, head, para, width, height }) {
           width={width}
         />
       </div>
-      <div className="">
+      <div className="w-[550px] centralize m-[20px]">
         <p className="font-poppins font-medium text-[20px] leading-[30px]">
           {title}
         </p>
