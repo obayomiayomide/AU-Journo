@@ -8,22 +8,34 @@ import ExploreInfo from "../ExploreInfo";
 function Explore() {
   return (
     <section className="flex justify-between">
-      <div className="w-[644px] ">
-        <img src={exploreImg} alt="Explore our top research topics" />
+      <div className="w-[700px]">
+        <img
+          className="centralize"
+          src={exploreImg}
+          alt="Explore our top research topics"
+          width={644}
+          height={644}
+        />
         <ExploreInfo
           exploreInfoIcon={membersIcon}
           exploreInfoText="1000+ members"
           width={80}
-        />
-        <ExploreInfo
-          exploreInfoIcon={downloadIcon}
-          exploreInfoText="200+ downloaded"
-          width={60}
+          w="380px"
+          movel="10px"
         />
         <ExploreInfo
           exploreInfoIcon={publishedIcon}
           exploreInfoText="500+ published topics"
           width={40}
+          w="430px"
+          movet="100px"
+        />
+        <ExploreInfo
+          exploreInfoIcon={downloadIcon}
+          exploreInfoText="200+ downloaded"
+          width={60}
+          w="400px"
+          movel="100px"
         />
       </div>
       <div className="w-[644px] ">
