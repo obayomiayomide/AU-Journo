@@ -1,10 +1,11 @@
 import React from "react";
 import heroBg from "../../assets/L-Page-Bg.png";
 import PagesLink from "../Pages Link/PagesLink";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section className="w-full h-[1022px] bg-hero-pattern object-contain">
+    <section className="w-full h-[1022px] bg-hero-pattern bg-cover flex items-center">
       <div className="w-[90%] centralize">
         <div className="w-[644px]">
           <h1 className="for-header">
@@ -13,7 +14,9 @@ function Hero() {
           <p className="font-poppins font-medium text-[28px] leading-[42px]">
             We give you access to own and publish your works with ease.
           </p>
-          <div className="w-[191px] for-btn ">Register</div>
+          <Link to="/register">
+            <div className="w-[191px] for-btn ">Register</div>
+          </Link>
         </div>
       </div>
     </section>
