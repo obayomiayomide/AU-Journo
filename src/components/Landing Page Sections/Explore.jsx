@@ -21,7 +21,7 @@ function Explore() {
           exploreInfoText="1000+ members"
           width={80}
           w="380px"
-          movel="10px"
+          movel="-20px"
         />
         <ExploreInfo
           exploreInfoIcon={publishedIcon}

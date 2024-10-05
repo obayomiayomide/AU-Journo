@@ -3,6 +3,7 @@ import Hero from "../Landing Page Sections/Hero";
 import LevelUp from "../Landing Page Sections/LevelUp";
 import Explore from "../Landing Page Sections/Explore";
 import Nav from "../Nav";
+import Footer from "../Landing Page Sections/Footer";
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
       <Hero />
       <LevelUp />
       <Explore />
+      <Footer />
     </div>
   );
 }
