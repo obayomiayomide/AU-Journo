@@ -11,11 +11,11 @@ function Hero() {
           <h1 className="for-header">
             Discover, upload, and download thousand research works and journals.
           </h1>
-          <p className="font-poppins font-medium text-[28px] leading-[42px]">
+          <p className="font-poppins font-medium text-[28px] leading-[42px] my-[50px]">
             We give you access to own and publish your works with ease.
           </p>
           <Link to="/register">
-            <div className="w-[191px] for-btn ">Register</div>
+            <div className="w-[191px] for-btn my-[100px]">Register</div>
           </Link>
         </div>
       </div>

@@ -7,7 +7,7 @@ import ExploreInfo from "../ExploreInfo";
 
 function Explore() {
   return (
-    <section className="flex justify-between">
+    <section className="h-[885px] flex justify-between bg-gradient-to-b from-white via-primaryrr via-primaryry to-white">
       <div className="w-[700px]">
         <img
           className="centralize"
@@ -28,7 +28,7 @@ function Explore() {
           exploreInfoText="500+ published topics"
           width={40}
           w="430px"
-          movet="100px"
+          movet="-500px"
         />
         <ExploreInfo
           exploreInfoIcon={downloadIcon}

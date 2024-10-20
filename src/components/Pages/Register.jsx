@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Input from "../Input";
 import Nav from "../Nav";
 import Back from "../Back";
@@ -8,6 +8,12 @@ import ActionBtn from "../ActionBtn";
 import PagesLink from "../Pages Link/PagesLink";
 
 function Register() {
+  const [userSignUp, setUserSignUp] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    password: "",
+  });
   return (
     <div className="text-center">
       <Nav />
@@ -18,10 +24,39 @@ function Register() {
           para="Let's get you started! Register with your social account to begin"
         />
         <form action="">
-          <Input type="text" placeholder="First name" />
-          <Input type="text" placeholder="Last name" />
-          <Input type="text" placeholder="Email address" />
-          <Input type="password" placeholder="Password" eyeImg={true} />
+          <Input
+            type="text"
+            placeholder="First name"
+            value={userSignUp.firstName}
+            whenChanged={(e) => {
+              setUserSignUp({ ...userSignUp, firstName: e.target.value });
+            }}
+          />
+          <Input
+            type="text"
+            placeholder="Last name"
+            value={userSignUp.lastName}
+            whenChanged={(e) => {
+              setUserSignUp({ ...userSignUp, lastName: e.target.value });
+            }}
+          />
+          <Input
+            type="text"
+            placeholder="Email address"
+            value={userSignUp.email}
+            whenChanged={(e) => {
+              setUserSignUp({ ...userSignUp, email: e.target.value });
+            }}
+          />
+          <Input
+            type="password"
+            placeholder="Password"
+            eyeImg={false}
+            value={userSignUp.password}
+            whenChanged={(e) => {
+              setUserSignUp({ ...userSignUp, password: e.target.value });
+            }}
+          />
           <button className="for-btn " type="submit">
             Register
           </button>

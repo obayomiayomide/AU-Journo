@@ -4,6 +4,8 @@ export default {
   theme: {
     colors: {
       primary: "#2e7b3f",
+      primaryrr: "#2e7b3f 30%",
+      primaryry: "#2e7b3f 70%",
       white: "#ffffff",
       default: "1a1a1a",
       ash: "#B0B7B1",
@@ -16,6 +18,8 @@ export default {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/L-Page-Bg.png')",
         "footer-texture": "url('/img/footer-texture.png')",
+        "gradient-bt":
+          "linear-gradient(to bottom, #ffffff , #2e7b3f 20%, #2e7b3f 20%, #ffffff)",
       },
     },
   },
