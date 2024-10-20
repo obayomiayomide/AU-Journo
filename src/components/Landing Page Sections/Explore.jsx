@@ -1,41 +1,18 @@
 import React from "react";
 import exploreImg from "../../assets/L-P-Img3.png";
-import membersIcon from "../../assets/Members-Icon.png";
-import downloadIcon from "../../assets/Download-Icon.png";
-import publishedIcon from "../../assets/Published-Icon.png";
 import ExploreInfo from "../ExploreInfo";
 
 function Explore() {
   return (
     <section className="h-[885px] flex justify-between bg-gradient-to-b from-white via-primaryrr via-primaryry to-white">
-      <div className="w-[700px]">
+      <div className="w-[700px] flex flex-col justify-center items-center">
+        <ExploreInfo />
         <img
           className="centralize"
           src={exploreImg}
           alt="Explore our top research topics"
           width={644}
           height={644}
-        />
-        <ExploreInfo
-          exploreInfoIcon={membersIcon}
-          exploreInfoText="1000+ members"
-          width={80}
-          w="380px"
-          movel="-20px"
-        />
-        <ExploreInfo
-          exploreInfoIcon={publishedIcon}
-          exploreInfoText="500+ published topics"
-          width={40}
-          w="430px"
-          movet="-500px"
-        />
-        <ExploreInfo
-          exploreInfoIcon={downloadIcon}
-          exploreInfoText="200+ downloaded"
-          width={60}
-          w="400px"
-          movel="100px"
         />
       </div>
       <div className="w-[644px] ">
