@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function LevelUp() {
   return (
-    <section className="w-full flex flex-col text-center p-[100px]">
+    <section className="w-full flex flex-col text-center p-[100px] pb-[200px]">
       <div className="flex gap-10 centralize text-center items-center">
         <LevelUpInfo
           levelUpImg={levelUpImg1}

@@ -4,8 +4,8 @@ import ExploreInfo from "../ExploreInfo";
 
 function Explore() {
   return (
-    <section className="h-[885px] flex justify-between bg-gradient-to-b from-white via-primaryrr via-primaryry to-white">
-      <div className="w-[700px] flex flex-col justify-center items-center">
+    <section className="h-[885px] flex justify-between items-center px-[80px] bg-gradient-to-b from-white via-primaryrr via-primaryry to-white">
+      <div className="w-[800px] flex flex-col">
         <ExploreInfo />
         <img
           className="centralize"

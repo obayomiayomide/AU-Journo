@@ -5,8 +5,8 @@ import publishedIcon from "../assets/Published-Icon.png";
 
 function ExploreInfo() {
   return (
-    <div className="h-[700px] absolute flex flex-col justify-between">
-      <div className="w-[380px] h-[100px] flex items-center rounded-[30px] bg-white z-10 shadow-[0_0_50px_rgba(0,0,0,0.25)] ml-[] mt-[]">
+    <div className="w-[] h-[675px] mt-[-50px] absolute flex flex-col justify-between">
+      <div className="w-[380px] h-[100px] ml-[150px] flex items-center rounded-[30px] bg-white z-10 shadow-[0_0_50px_rgba(0,0,0,0.25)] ml-[] mt-[]">
         <div className="flex items-center gap-[20px] centralize">
           <span>
             <img src={membersIcon} alt="" width={68} />
@@ -16,7 +16,7 @@ function ExploreInfo() {
           </span>
         </div>
       </div>
-      <div className="w-[430px] h-[100px] flex items-center rounded-[30px] bg-white z-10 ml-[] mt-[] shadow-[0_0_50px_rgba(0,0,0,0.25)]">
+      <div className="w-[430px] h-[100px] mt-[180px] flex items-center rounded-[30px] bg-white z-10 shadow-[0_0_50px_rgba(0,0,0,0.25)]">
         <div className="flex items-center gap-[20px] centralize">
           <span>
             <img src={publishedIcon} alt="" width={42} />
@@ -26,7 +26,7 @@ function ExploreInfo() {
           </span>
         </div>
       </div>
-      <div className="w-[365px] h-[100px] flex items-center rounded-[30px] bg-white z-10 ml-[] mt-[] shadow-[0_0_50px_rgba(0,0,0,0.25)]">
+      <div className="w-[365px] h-[100px] ml-[500px] flex items-center rounded-[30px] bg-white z-10 ml-[] mt-[] shadow-[0_0_50px_rgba(0,0,0,0.25)]">
         <div className="flex items-center gap-[20px] centralize">
           <span>
             <img src={downloadIcon} alt="" width={48} />
